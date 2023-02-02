@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
 	implementation files('libs/sync-lib-2.1.jar')
-	implementation files('libs/message-1.0.jar')
+	implementation files('libs/message-1.1.jar')
 
 
 	implementation 'org.springframework.boot:spring-boot-starter-amqp'

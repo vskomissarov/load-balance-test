@@ -12,9 +12,16 @@ repositories {
 	mavenCentral()
 }
 
+bootJar {
+	enabled = false
+}
+
+jar {
+	enabled = true
+}
+
 dependencies {
 	implementation files('libs/sync-lib-2.1.jar')
-	implementation files('libs/message-1.0.jar')
 
 	implementation 'org.springframework.boot:spring-boot-starter-amqp'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
