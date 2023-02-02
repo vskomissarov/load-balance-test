@@ -1,1 +1,1 @@
-![](img/Pasted Graphic 2.jpg)
+![plot](./img/Pasted Graphic 2.jpg)
