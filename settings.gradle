@@ -1,0 +1,6 @@
+rootProject.name = 'load-balance-test'
+include 'consumer_1'
+include 'consumer_2'
+include 'producer_1'
+include 'producer_2'
+

@@ -1,0 +1,16 @@
+rabbitmq:
+  exchange: "producer.out"
+  queue: "producer-queue"
+
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: test
+    password: test
+
+server:
+  servlet:
+    context-path: /push/api/v1
+  port: 5992
