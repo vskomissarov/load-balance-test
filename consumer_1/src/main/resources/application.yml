@@ -10,6 +10,9 @@ spring:
     port: 5672
     username: test
     password: test
+    listener:
+      simple:
+        prefetch: 10
 
 server:
   servlet:
